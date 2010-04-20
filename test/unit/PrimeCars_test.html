@@ -5,7 +5,7 @@
   <title>JavaScript unit test file</title>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <script src="../assets/jsunittest.js" type="text/javascript"></script>
-  <script src="../../src/PrimeCars.js" type="text/javascript"></script>
+  <script src="../../goroadtrip4.dcproj/project/mobile/main.js" type="text/javascript"></script>
   
   <link rel="stylesheet" href="../assets/unittest.css" type="text/css" />
 </head>
@@ -39,8 +39,25 @@ new Test.Unit.Runner({
     
   },
   
-  testTruth: function() { with(this) {
-    assert(true);
+  test_playerObjectDefaults : function() { with(this) {
+    var po = new playerObject();
+    
+    assertEqual('', po.name, "Name(" + po.name + ") is unexpected");
+    assertEqual(0, po.score);
+    assertEqual('', po.avatar);
+    assertEqual(0, po.admin);
+    assertEqual(0, po.isplaying);
+  }},
+  
+  test_pcAnwersObjectDefaults : function() { with(this) {
+    var pcao = new pcAnswersObject();
+    
+    assertEqual(0, pcao.answers.length);
+    assertEqual(0, pcao.scores.length);
+  }},
+  
+  test_PCdetermineText : function() { with(this) {
+    assert("IMPLEMENT ME");
   }},
   
   anotherTestTruth: function() { with(this) {
