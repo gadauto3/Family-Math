@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>Try</title>
+<style>
+body {background:URL(Start.jpg) no-repeat #000055; color:#000055;}
+.button {position:absolute; text-align:center;}
+.buttonText {background:URL(background.png) repeat-x; border:none; font-family:Tekton Pro Cond, Arial; color: #FFFFFF; height:18px; overflow:hidden; padding-top:1px; margin:0 5 0 5px;}
+.right {background:URL(right.png) no-repeat; width:5px; height:18px; padding:0px; margin:0px; position:absolute; right:0px; top:0px;}
+.left {background:URL(left.png) no-repeat; width:5px; height:18px; padding:0px; margin:0px; position:absolute; left:0px; top:0px;}
+</style>
+</head>
+<body>
+<div class="button" style="top:150px; left:30px;"><div class="right"></div><div class="left"></div><input type="button" class="buttonText" value="CREATE ACCOUNT"></input></div>
+<div class="button" style="top:150px; left:200px;"><div class="right"></div><div class="left"></div><input type="button" class="buttonText" value="LOGIN"></input></div>
+<div class="button" style="top:120px; left:200px;"><input type="checkbox"></input>Checkbox</div>
+</body>
+</html>

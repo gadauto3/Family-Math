@@ -1,0 +1,28 @@
+body {padding:0px; margin:0px; background:#000055;}
+body div {position:absolute;}
+
+div#Front {background:URL(images/Start.jpg) no-repeat #000055; height:193px; width:320px; top:0px; left:0px;}
+div#Login {background:URL(images/Login.jpg) no-repeat #000055; display:none; height:193px; width:320px; top:0px; left:0px;}
+div#NewAccount {background:URL(images/NewAccount.jpg) no-repeat #000055; display:none; height:193px; width:320px; top:0px; left:0px;}
+div#BattingAverage {background:URL(images/BattingAverage.jpg) no-repeat #000055; display:none; height:193px; width:320px; top:0px; left:0px;}
+div#Blank {background:URL(images/Blank.jpg) no-repeat #000055; display:none; height:193px; width:320px; top:0px; left:0px;}
+div#GameStats {background:URL(images/GameStats.jpg) no-repeat #000055; display:none; height:193px; width:320px; top:0px; left:0px;}
+div#GameSummary {background:URL(images/GameSummary.jpg) no-repeat #000055; display:none; height:193px; width:320px; top:0px; left:0px;}
+div#GraphStats {background:URL(images/GraphStats.jpg) no-repeat #000055; display:none; height:193px; width:320px; top:0px; left:0px;}
+div#MLBInfo {background:URL(images/MLBInfo.jpg) no-repeat #000055; display:none; height:193px; width:320px; top:0px; left:0px;}
+div#MLBNew {background:URL(images/MLBNew.jpg) no-repeat #000055; display:none; height:193px; width:320px; top:0px; left:0px;}
+div#MLBStart {background:URL(images/MLBStart.jpg) no-repeat #000055; display:none; height:193px; width:320px; top:0px; left:0px;}
+div#MLBGameSummary {background:URL(images/GameSummary.jpg) no-repeat #000055; display:none; height:193px; width:320px; top:0px; left:0px;}
+div#NewGame {background:URL(images/NewGame.jpg) no-repeat #000055; display:none; height:193px; width:320px; top:0px; left:0px;}
+div#PriorGames {background:URL(images/PriorGames.jpg) no-repeat #000055; display:none; height:193px; width:320px; top:0px; left:0px;}
+div#PriorGamesBlank {background:URL(images/PriorGamesBlank.jpg) no-repeat #000055; display:none; height:193px; width:320px; top:0px; left:0px;}
+div#SeasonStats {background:URL(images/SeasonStats.jpg) no-repeat #000055; display:none; height:193px; width:320px; top:0px; left:0px;}
+div#VerifyInfo {background:URL(images/VerifyInfo.jpg) no-repeat #000055; display:none; height:193px; width:320px; top:0px; left:0px;}
+div#ViewHistory {background:URL(images/ViewHistory.jpg) no-repeat #000055; display:none; height:193px; width:320px; top:0px; left:0px;}
+
+.button {position:absolute; text-align:center; height:18px;}
+.rightButton {position:absolute; text-align:center; height:18px; top:155px; right:30px;}
+.leftButton {position:absolute; text-align:center; height:18px; top:155px; left:30px;}
+.buttonText {background:URL(images/background.png) repeat-x; border:none; font-family:Tekton Pro Cond, Arial; color: #FFFFFF; height:18px; overflow:hidden; margin:0 5 0 5px;}
+.right {background:URL(images/right.png) no-repeat; width:5px; height:18px; padding:0px; margin:0px; position:absolute; right:0px; top:0px; overflow:hidden;}
+.left {background:URL(images/left.png) no-repeat; width:5px; height:18px; padding:0px; margin:0px; position:absolute; left:0px; top:0px; overflow:hidden;}
