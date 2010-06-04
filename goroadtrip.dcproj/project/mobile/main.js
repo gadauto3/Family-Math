@@ -693,7 +693,7 @@ function validateInputButton(event)
         var num1 = (inputNum - inputNum % 100) / 100;
         var num2 = ((inputNum - inputNum % 10) % 100) / 10;
         var num3 = inputNum % 10;
-        TLsubmitSecretNumber(num1, num2, num3, true);
+        TLSubmitSecretNumber(num1, num2, num3, true);
         TLpass();
     }
     
